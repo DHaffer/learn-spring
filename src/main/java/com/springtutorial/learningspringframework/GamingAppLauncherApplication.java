@@ -15,7 +15,7 @@ import com.springtutorial.learningspringframework.game.SuperContraGame;
 @ComponentScan("com.springtutorial.learningspringframework.game")
 public class GamingAppLauncherApplication {
 		
-	public static void main(String[] args) {
+	 public static void main(String[] args) {
 		
 		try (var context = 
 				new AnnotationConfigApplicationContext(GamingAppLauncherApplication.class)) {
